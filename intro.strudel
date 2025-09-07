@@ -1,0 +1,8 @@
+$:polymeter("c eb g", "c2 g2").note()
+$:sound("bd*4, [- cp]*2, [- hh]*4").bank("RolandTR909")
+$:sound("casio:1")  // different numbers = different samples
+$:sound("bd").bank("RolandTR909")
+$:sound("bd - [bd hh bd]*4 - [rim rim]*5 [[bd hh*2]] bd [[bd hh*2]]")
+$:sound("[rim bd rim bd]*2")
+// $:n(run(4)).scale("C4:pentatonic") -- not sure yet 
+$:sound("hh".s().struct(binaryN(55532, 16)))
